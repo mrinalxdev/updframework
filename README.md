@@ -38,7 +38,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/yourusername/udpframework"
+	"github.com/mrinalxdev/udpframework"
 )
 
 func main() {
