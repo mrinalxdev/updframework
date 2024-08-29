@@ -1,4 +1,4 @@
-# Advanced UDP Framework in Go
+# UdGo
 
 This project implements an advanced UDP (User Datagram Protocol) framework in Go, featuring automated packet reassembly, customizable retry and timeout mechanisms, and packet prioritization with Quality of Service (QoS) support.
 
