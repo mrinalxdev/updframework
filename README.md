@@ -24,7 +24,7 @@ This project implements an advanced UDP (User Datagram Protocol) framework in Go
 To install the UDP framework, use the following command:
 
 ```bash
-go get github.com/yourusername/udpframework
+go get github.com/mrinalxdev/udpframework
 ```
 
 ## Usage
