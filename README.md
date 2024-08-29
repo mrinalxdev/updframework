@@ -53,7 +53,7 @@ func main() {
 		PriorityQueues: make([][]udpframework.Packet, 3),
 	}
 
-	framework, err := udpframework.NewUDPFramework(":8080", retryConfig, qosConfig)
+	framework, err := udpframework.UdGo(":8080", retryConfig, qosConfig)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -135,10 +135,10 @@ Holds the configuration for Quality of Service.
 
 ### Functions
 
-#### NewUDPFramework
+#### UdGo
 
 ```go
-func NewUDPFramework(addr string, retryConfig RetryConfig, qosConfig QoSConfig) (*UDPFramework, error)
+func UdGo(addr string, retryConfig RetryConfig, qosConfig QoSConfig) (*UDPFramework, error)
 ```
 
 Creates a new instance of UDPFramework.
